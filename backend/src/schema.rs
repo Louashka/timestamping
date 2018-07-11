@@ -25,7 +25,6 @@ encoding_struct! {
         /// Additional metadata.
         metadata: &str,
 
-        filename: &str,
     }
 }
 
@@ -40,6 +39,8 @@ encoding_struct! {
 
         /// Timestamp time.
         time: DateTime<Utc>,
+
+        filename: &str,
     }
 }
 
@@ -76,7 +77,7 @@ impl<'a> Schema<&'a mut Fork> {
     pub fn add_timestamp(&mut self, timestamp_entry: TimestampEntry) {
         let timestamp = timestamp_entry.timestamp();
         let content_hash = timestamp.content_hash();
-        let filename = timestamp.filename();
+        let filename = timestamp_entry.filename();
 
         // Check that timestamp with given content_hash does not exist.
         if self.timestamps().contains(content_hash) {

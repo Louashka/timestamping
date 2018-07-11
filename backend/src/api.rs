@@ -103,18 +103,18 @@ impl<T: TransactionSend + Clone + 'static> PublicApi<T> {
         );
     }
 
-    // fn wire_timestamp_filename(self, router: &mut Router) {
-    //     let timestamp_filename = move |req: &mut Request| -> IronResult<Response> {
-    //         let content_hash: Hash = self.url_fragment(req, "content_hash")?;
-    //         let proof = self.timestamp_proof(&content_hash)?;
-    //         self.ok_response(&json!(proof))
-    //     };
-    //     router.get(
-    //         "/v1/timestamps/proof/:content_hash",
-    //         timestamp_proof,
-    //         "get_timestamp_proof",
-    //     );
-    // }
+    fn wire_timestamp_filename(self, router: &mut Router) {
+        let timestamp_filename = move |req: &mut Request| -> IronResult<Response> {
+            let filename: str = self.url_fragment(req, "filename")?;
+            // let proof = self.timestamp_proof(&content_hash)?;
+            // self.ok_response(&json!(proof))
+        };
+        router.get(
+            "/v1/timestamps/filename/:filename",
+            timestamp_filename,
+            "get_timestamp_entry_by_name",
+        );
+    }
 
     fn wire_post_timestamp(self, router: &mut Router) {
         let post_timestamp = move |req: &mut Request| -> IronResult<Response> {
