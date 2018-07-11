@@ -1,0 +1,13 @@
+/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/deps/liburl-0f306c334b685f50.rlib: /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/deps/url-0f306c334b685f50.d: /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs
+
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/lib.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/encoding.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/host.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/origin.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/path_segments.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/parser.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/slicing.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/form_urlencoded.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/url-1.7.0/src/quirks.rs:

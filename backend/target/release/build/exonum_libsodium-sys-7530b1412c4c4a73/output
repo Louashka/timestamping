@@ -1,0 +1,21 @@
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+cargo:rustc-link-lib=static=sodium
+cargo:rustc-link-search=native=/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/build/exonum_libsodium-sys-7530b1412c4c4a73/out/installed/lib
+cargo:include=/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/build/exonum_libsodium-sys-7530b1412c4c4a73/out/installed/include

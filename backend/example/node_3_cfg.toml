@@ -1,0 +1,73 @@
+consensus_public_key = "69e09bbf59f21126144280c465cbe31f97bbc30a2150cac5d95cb4a69ab5b0f1"
+consensus_secret_key = "7115316e6d5ee4a2bd35c3c7d936dd98e7b78ba9062e71effabe5dcb6f6d501369e09bbf59f21126144280c465cbe31f97bbc30a2150cac5d95cb4a69ab5b0f1"
+external_address = "127.0.0.1:6333"
+listen_address = "0.0.0.0:6333"
+service_public_key = "b1876c6f9a64c09ebee6741f0e98345de9b373115f86e015ea38c66b50c1fa0d"
+service_secret_key = "03f5c55464abf429bb18890218799b627275cc8b2d50c9fb9f88e00c9b662ab7b1876c6f9a64c09ebee6741f0e98345de9b373115f86e015ea38c66b50c1fa0d"
+
+[api]
+enable_blockchain_explorer = true
+private_api_address = "0.0.0.0:8093"
+public_api_address = "0.0.0.0:8202"
+state_update_timeout = 10000
+[[connect_list.peers]]
+address = "127.0.0.1:6334"
+public_key = "4bb8d3efeb615e63195433c66b824c7d56475c94872f4257b9d0380e66d1a720"
+
+[[connect_list.peers]]
+address = "127.0.0.1:6333"
+public_key = "69e09bbf59f21126144280c465cbe31f97bbc30a2150cac5d95cb4a69ab5b0f1"
+
+[[connect_list.peers]]
+address = "127.0.0.1:6331"
+public_key = "7d845f5f85d771d5b9860febf2a9217b65045ac7062efb18025acf560707668c"
+
+[[connect_list.peers]]
+address = "127.0.0.1:6332"
+public_key = "c64307880882808726f88fa737a9f57d55891c6fa4a9642b931ec5388cbdd5af"
+
+[database]
+create_if_missing = true
+[[genesis.validator_keys]]
+consensus_key = "4bb8d3efeb615e63195433c66b824c7d56475c94872f4257b9d0380e66d1a720"
+service_key = "7d07f295b313c380e8be841575ba7f0aacd2735c065b46a9e6f935fa25c745ee"
+
+[[genesis.validator_keys]]
+consensus_key = "69e09bbf59f21126144280c465cbe31f97bbc30a2150cac5d95cb4a69ab5b0f1"
+service_key = "b1876c6f9a64c09ebee6741f0e98345de9b373115f86e015ea38c66b50c1fa0d"
+
+[[genesis.validator_keys]]
+consensus_key = "7d845f5f85d771d5b9860febf2a9217b65045ac7062efb18025acf560707668c"
+service_key = "b7826a6108f1c3a3cd8ec4072d71cd62c71982da3f1fa78d4bdfe4ceb8f6ec13"
+
+[[genesis.validator_keys]]
+consensus_key = "c64307880882808726f88fa737a9f57d55891c6fa4a9642b931ec5388cbdd5af"
+service_key = "94a8dd36002ecd204e6e35d23cb50e351875ebbc5fe9bad3fe1715d62d957890"
+
+[genesis.consensus]
+max_message_len = 1048576
+max_propose_timeout = 200
+min_propose_timeout = 10
+peers_timeout = 10000
+propose_timeout_threshold = 500
+round_timeout = 3000
+status_timeout = 5000
+txs_block_limit = 1000
+
+[mempool]
+tx_pool_capacity = 100000
+
+[mempool.events_pool_capacity]
+api_requests_capacity = 1024
+internal_events_capacity = 128
+network_events_capacity = 512
+network_requests_capacity = 512
+
+[network]
+max_incoming_connections = 128
+max_outgoing_connections = 128
+tcp_connect_max_retries = 10
+tcp_connect_retry_timeout = 15000
+tcp_nodelay = true
+
+[services_configs]

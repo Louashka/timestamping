@@ -1,0 +1,11 @@
+/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/deps/libos_info-421bd12db43c441c.rlib: /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/lib.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/mod.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/file_release.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/lsb_release.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/info.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/os_type.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/version.rs
+
+/home/louashka/Bitfury/Timestamping/exonum/examples/timestamping/backend/target/release/deps/os_info-421bd12db43c441c.d: /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/lib.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/mod.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/file_release.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/lsb_release.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/info.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/os_type.rs /home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/version.rs
+
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/lib.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/mod.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/file_release.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/linux/lsb_release.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/info.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/os_type.rs:
+/home/louashka/.cargo/registry/src/github.com-1ecc6299db9ec823/os_info-1.0.1/src/version.rs:

@@ -1,0 +1,1 @@
+{"rustc":17859320367814235581,"features":"[\"default\", \"xattr\"]","target":5827517915097480020,"profile":3515853926593532548,"path":10532796394024553859,"deps":[["filetime v0.2.1","filetime",17359388910421511357],["libc v0.2.42","libc",7116368462720091865],["xattr v0.2.1","xattr",11640545255604129015]],"local":[{"Precalculated":"0.4.16"}],"rustflags":[],"edition":"Edition2015"}
